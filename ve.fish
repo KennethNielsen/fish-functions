@@ -19,7 +19,6 @@ function ve -d "Activate and enter a virtual env"
 
 	    # Finally cd into project dir
 	    if test -d $argv[1]
-		echo "UUU"
 		cd $argv[1]
 	    else
 		# 
